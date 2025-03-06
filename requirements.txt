@@ -1,0 +1,24 @@
+# requirements.txt
+# spacy
+# en_core_web_md
+
+# README.md
+# FAQ Chatbot
+
+This is a simple chatbot that answers frequently asked questions using NLP (SpaCy).
+
+## Installation
+1. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+2. Download the SpaCy model:
+   ```sh
+   python -m spacy download en_core_web_md
+   ```
+
+## Usage
+Run the chatbot:
+```sh
+python faq_chatbot.py
+```
